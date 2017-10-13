@@ -18,25 +18,17 @@
 </head>
 <body>
 <header id="head" class="header">
-	<script type="text/javascript">
-		$('.header').backgroundMove({
-		movementStrength:'50'
-		});
-	</script>
+
 <div class="menu-overlay"></div>
 <div class="menu">
-<div class="lang-en">
-			<a href="#"></a>
-		</div>
-<div class="lang-ru">
-			<a href="#"></a>
-		</div>
-<div class="lang-ger">
-			<a href="#"></a>
-		</div>	
-  <div class="hamburger-menu-wrapper">
-    <button class="hamburger-menu"> <span>toggle menu</span> </button>
-  </div>
+<div class="lang-en"><a href="#"></a></div>
+<div class="lang-ru"><a href="#"></a></div>
+<div class="lang-ger"><a href="#"></a></div>	
+ 
+ <div class="hamburger-menu-wrapper">
+    <button class="hamburger-menu"><span>toggle menu</span></button>
+ </div>
+
   <div class="menu-list"> 
   	<ul>
   		<li><a class="mPS2id fadeInUp animated" href="#head" >Главная</a></li>
@@ -46,48 +38,38 @@
     </ul>  
   </div>
 </div>
-<div class="jquery-script-ads" align="center"><script type="text/javascript"><!--
-google_ad_client = "ca-pub-2783044520727903";
-/* jQuery_demo */
-google_ad_slot = "2780937993";
-google_ad_width = 728;
-google_ad_height = 90;
-//-->
-</script>
+
+<div class="jquery-script-ads" align="center">
+	<script type="text/javascript">
+		<!--
+		google_ad_client = "ca-pub-2783044520727903";
+		/* jQuery_demo */
+		google_ad_slot = "2780937993";
+		google_ad_width = 728;
+		google_ad_height = 90;
+		//-->
+	</script>
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script> 
-<script src="js/menu.js"></script>
-<script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36251023-1']);
-  _gaq.push(['_setDomainName', 'jqueryscript.net']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>		
-
-	<div class="photo">
+<div class="photo">
 		<p><img src="img/photo.jpg"></p>
 		<h2>Сараджян Станислав</h2>
 		<h5>Личный сайт веб-разработчика</h5>
-	</div>
+</div>
 </header>
+
 <div class="whoiam">
-			<div id="about" class="about-title">
-				<h1>КТО Я ТАКОЙ?</h1>
-			</div>
+	<div id="about" class="about-title">
+		<h1>КТО Я ТАКОЙ?</h1>
+	</div>
+
 	<div class="about">
 		<div class="me wow fadeInLeft">
 			<h1 ><img width="200" height="220" style="border-radius: 200px;" src="img/photo2.jpg"></h1>
 			<span class="title-me">ОБО МНЕ!</span>
 			<p>Я веб разработчик из города Соледар. Мне 22 года. Не так давно Я окончил Артемовский Колледж Транспортной Инфраструктуры на факультете Электронщик. Я занимаюсь разработкой современных сайтов, так как мне интересна эта сфера деятельности. Мне нравится делать интересные современные проекты.</p>
-			</div>	
+		</div>	
+
 		<div class="info wow fadeInRight">
 			<h3>ЧЕМ Я МОГУ БЫТЬ ВАМ ПОЛЕЗЕН</h3>
 			<hr style="border-color: gray; ">
@@ -98,7 +80,8 @@ google_ad_height = 90;
 				<span class="html-log"><img width="60" height="60" src="img/css.png"></span>
 				<span class="html-log"><img width="60" height="60" src="img/jquery.png"></span>
 				<span class="html-log"><img width="60" height="60" src="img/java.png"></span>
-			</div>	
+		</div>	
+
 		<div class="skillbar" data-percent="85%">
 			<div class="skillbar-title" style="background: red;"><span>HTML5</span></div>	
 			<div class="skillbar-bar" style="background: red;"></div>
@@ -123,13 +106,7 @@ google_ad_height = 90;
 			<div class="skillbar-bar-percent">65%</div>
 		</div>	
 			</div>	
-			<script type="text/javascript">
-		$('.skillbar').each(function(){
-		$(this).find('.skillbar-bar').animate({
-		width:$(this).attr('data-percent')
-		}, 3000);
-		});
-		</script>
+
 	</div>
 		<div class="works">
 			<p id="works" class="my-works-title">Мои Работы</p>
@@ -161,21 +138,91 @@ google_ad_height = 90;
 		</div>	
 	</div>
 		<footer class="footer">
-			<div class="contacts-title">
-				<h1>Связь</h1>
+			<div class="contact-me">
+				<h1>Cвязь</h1>
 				<h3>Вы можете связаться со мной по следующим контактам...</h3>
-			</div>
-			<hr>
-			<div id="contacts" class="contacts">	
-				<span class="myicon"><img width="110" height="110" src="img/myicon.png"></span>
-				<span class="brackets"><img  src="img/brackets.png"></span>
-				<p class="adress-live"><img width="25" height="25" src="img/adress.png"> Украина, Донецкая область, г.Соледар</p>
-				<p class="adress-mail"><img width="25" height="25" src="img/mail.png"> sar-stason@rambler.ru</p>
-				<a class="adress-vk" href="https://vk.com/fuck_em_up"><img text-align="left" width="30" height="30" src="img/vk.png"> Сараджян Станислав</a><br><br>
-				<a class="adress-fb" href="https://www.facebook.com/stan.sarajan"><img width="25" height="25" src="img/fb.png"> Сараджян Станислав</a>
+				<hr>
+
+				<div class="contact-me-inf">
+					<img class="icon-man" width="110" height="110" src="img/myicon.png">
+					<img class="brackets" src="img/brackets.png">
+					<div class="social">
+					<table class="table-soc">
+						<tr>
+							<td>
+								<span class="soc-adress"></span>
+							</td>
+							<td>
+								<h4>Украина, Донецкая область, г.Соледар</h4>
+							</td>
+							</tr>
+							<tr>
+							<td>
+								<span class="soc-mail">&nbsp;</span>
+							</td>
+							<td>
+								<h4>sar-stason@rambler.ru</h4>
+							</td>
+							</tr>
+							<tr>
+							<td>
+								<span class="soc-vk">&nbsp;</span>
+							</td>
+							<td>
+								<a href="https://vk.com/fuck_em_up">Сараджян Станислав</a>
+							</td>
+							</tr>
+							
+							<tr>
+							<td>
+								<span class="soc-fb">&nbsp;</span>
+							</td>
+							<td>
+								<a href="https://www.facebook.com/stan.sarajan">Сараджян Станислав</a>
+							</td>
+							</tr>
+							
+						</table>
+					</div>
+				</div>
+
 			</div>
 		</footer>
-</div>	
+</div>
+
+
+
+</script>		
+		<script type="text/javascript">
+		$('.header').backgroundMove({
+		movementStrength:'50'
+		});
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script> 
+<script src="js/menu.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+$('.skillbar').each(function(){
+		$(this).find('.skillbar-bar').animate({
+		width:$(this).attr('data-percent')
+		}, 3000);
+		});
+
+
+</script>
 </body>
 </html>
 
