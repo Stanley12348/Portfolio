@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+@font-face {
+    font-family: opensans;
+    src: local("opensans"),
+    url(../fonts/OpenSans.ttf);
+}
+
+@font-face {
+    font-family: Muller;
+    src: local("Muller"),
+    url(../fonts/Muller.otf);
+}
+
+@font-face {
+    font-family: ComfortaaBold;
+    src: local("ComfortaaBold"),
+    url(../fonts/Comfortaa-Bold.ttf);
+}
+
+@font-face {
+    font-family: ComfortaaRegular;
+    src: local("ComfortaaRegular"),
+    url(../fonts/Comfortaa-Regular.ttf);
+}
+
+@font-face {
+    font-family: Bebas;
+    src: local("Bebas Neue Regular"),
+    url(../fonts/Bebas.otf);
+}
+
+@font-face {
+    font-family: ITC;
+    src: local("ITC Conduit Cyrillic"),
+    url(../fonts/ITC.ttf);
+}
+
+@font-face {
+    font-family: dinpro;
+    src: local("DINPro-Light"),
+    url(../fonts/higherup.ttf);
+}
+
+@font-face {
+    font-family: higherup;
+    src: local("AA Higherup"),
+    url(../fonts/dinpro.otf);
+}
+
+@font-face {
+    font-family: ubuntu;
+    src: local("ubuntu"),
+    url(../fonts/ubuntu.ttf);
+}
